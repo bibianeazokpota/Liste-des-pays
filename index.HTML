@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Liste des pays</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+
+        }
+
+        .country-container {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .country {
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 15px;
+                margin: 10px;
+                width: 250px;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </STyle>
+    </header>
+
+<body>
+    <h1>Liste de 20 pays</h1>
+    <div class="country-container" id="countries"></div>
+
+    <script src="java.js">
+        // async function fetchSelectorCountries() {
+        //     try {
+        //         const CountryCodes = "fr,de,us,ca,br,jp,gb,ru,cn,in,mx,au,it,es,za,ar,eg,ng,tr,kr";
+        //         const reponse = fetch(`https://restcountries.com/v3.1/alpha?codes=${countryCodes}`)
+        //         const data = await reponse.json();
+        //         displayCountries(data);
+
+        //     } catch (error) {
+        //         console.error("erreur lors de la récupération des pays:", error);
+        //     }
+
+        // }
+        // function displayCountries(countries) {
+        //     const container = document.getElementById(`countries`);
+        //     container.innerHTML = "";
+        //     countries.forEach(country {
+        //         const { name, flags, capital, currencies } = country;
+        //         const currencyName = currencies ? object.values(currencies)[0].name : `N\A`;
+        //         const countryElement = document.CreatElement(`div`);
+        //         countryElement.innerHTML = ''
+        //             < h3 >§{ name.Common } </h3 >
+        //     <P><strong>Capitale:</strong>§ {capital ? Capital[0] : `N\A`}</P>
+
+
+        //                 })
+        //             }
+        // fetchCountries();
+    </script>
+</body>
